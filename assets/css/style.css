@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&family=Roboto&display=swap');
 *{
   margin: 0px;
   padding: 0px;
@@ -41,17 +41,28 @@
     animation: mymove 2s infinite alternate linear;
 }
 @keyframes mymove {
-    0%   {translate: 0px 0px;}
+    0% {translate: 0px 0px;}
     100% {translate: 30px 0px;}
   }
 .banner .p1{
-    font-size: 17px;font-weight: 600;padding-top: 120px;color: #ea512e;margin-bottom: 9px !important;
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 90px;
+    color: #ea512e;
+    margin-bottom: 9px !important;
 }
 .banner .p2{
-    font-size: 55px;font-weight: 600;color: #1b0238;line-height: 70px !important;font-family: 'Catamaran', sans-serif !important;
+    font-size: 60px;
+    font-weight: 600;
+    color: #1b0238;
+    line-height: 77px !important;
+    font-family: 'Catamaran', sans-serif !important;
+    letter-spacing: 2px;
 }
 .banner .p3{
-   color: #624883;margin-bottom: 15px !important;line-height: 27px;
+   color: #624883;
+   margin-bottom: 15px !important;
+   line-height: 27px;
 }
 .default-btn1{
     background-color: #ff9a27;
