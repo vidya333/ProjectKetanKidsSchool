@@ -34,7 +34,7 @@
 /* BANNER ------------------------------------------------------------------------------------------------------------ */
 .banner{
     background: url(../img/main-banner-bg.jpg);
-    width: 100%;min-height: 580px;
+    width: 100%;min-height: 560px;
     background-size: 100% 100%;
 }
 .banner .horizontal{
