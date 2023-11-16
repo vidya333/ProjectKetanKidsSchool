@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: none;
+  font-family: "Roboto",sans-serif;}
+
+/* HEADER ------------------------------------------------------------------------------------------------------------ */
+.navbar .navbar-nav .nav-item a {
+        color: #1b0238;
+        font-size: 16px;
+        font-weight: 600 !important;
+    }
+.nav-link:hover{
+    color: #ea512e !important;
+}
+.nav-link :hover{
+    color: #ea512e !important;
+}
+.nav-link{
+    transition: color .15s ease-in-out;    
+}
+.default-btn{
+    background-color: #ea512e;
+    border-radius: 10px;
+    transition: 0.6s ease;
+    border: 0px;padding: 12px 33px;
+}
+.default-btn:hover{
+    box-shadow: #ff9a27 0px 54px 3px 0px inset;
+    background-color: #ea512e;
+}
+/* BANNER ------------------------------------------------------------------------------------------------------------ */
+.banner{
+    background: url(../img/main-banner-bg.jpg);
+    width: 100%;min-height: 580px;
+    background-size: 100% 100%;
+}
+.banner .horizontal{
+    animation: mymove 2s infinite alternate linear;
+}
+@keyframes mymove {
+    0%   {translate: 0px 0px;}
+    100% {translate: 30px 0px;}
+  }
+.banner .p1{
+    font-size: 17px;font-weight: 600;padding-top: 110px;color: #ea512e;
+}
+.banner .p2{
+    font-size: 57px;font-weight: 600;color: #1b0238;line-height: 66px;
+}
+.banner .p3{
+   color: #1b0238;
+}
+.default-btn1{
+    background-color: #ff9a27;
+    border-radius: 10px;
+    transition: 0.6s ease;
+    border: 0px;padding: 12px 33px;
+}
+.default-btn1:hover{
+    box-shadow: #ea512e 0px 54px 3px 0px inset;
+    background-color: #ff9a27;
+}
