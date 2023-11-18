@@ -74,3 +74,6 @@
     box-shadow: #ea512e 0px 54px 3px 0px inset;
     background-color: #ff9a27;
 }
+.row>*{
+    padding-right: 0px !important;
+}
