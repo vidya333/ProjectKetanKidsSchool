@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&family=Roboto&family=Sacramento&display=swap');
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   border: none;
-  font-family: "Roboto",sans-serif;}
+  font-family: "Roboto",sans-serif;
+}
 
 /* HEADER ------------------------------------------------------------------------------------------------------------ */
 .navbar .navbar-nav .nav-item a {
@@ -24,17 +25,40 @@
 .default-btn{
     background-color: #ea512e;
     border-radius: 10px;
-    transition: 0.6s ease;
+    transition: 0.7s ease;
     border: 0px;padding: 12px 33px;
 }
 .default-btn:hover{
-    box-shadow: #ff9a27 0px 54px 3px 0px inset;
+    box-shadow: #ff9a27 0px 54px 0px 0px inset;
     background-color: #ea512e;
+}
+.dropdown-menu{
+    border-radius: 0px;
+    border: 0px;
+    box-shadow: 0px 5px 12px 0px rgb(184, 181, 181);
+    line-height: 39px;
+    width: 280px;   
+    animation: up ease-in-out 0.5s;
+}
+@keyframes up {
+    0% {translate: 0px 24px;}
+    100% {translate: 0px 0px;}
+  }
+.navbar .dropdown:hover .dropdown-menu{
+    display: block;
+}
+.flip{animation: flip1 2s ease;}
+@keyframes flip1 {
+    from{transform: rotateY(90deg);
+    to{transform: rotateY(0deg);}}
+}
+.dropdown-item:hover{
+    color: #ea512e !important;
 }
 /* BANNER ------------------------------------------------------------------------------------------------------------ */
 .banner{
     background: url(../img/main-banner-bg.jpg);
-    width: 100%;min-height: 560px;
+    width: 100%;min-height: 730px;
     background-size: 100% 100%;
 }
 .banner .horizontal{
@@ -43,6 +67,13 @@
 @keyframes mymove {
     0% {translate: 0px 0px;}
     100% {translate: 30px 0px;}
+  }
+.banner .up{
+    animation: moveup 2s infinite alternate linear;
+}
+@keyframes moveup {
+    0% {translate: 0px 0px;}
+    100% {translate: 0px 30px;}
   }
 .banner .p1{
     font-size: 17px;
@@ -76,4 +107,10 @@
 }
 .row>*{
     padding-right: 0px !important;
+}
+.mb-7{
+    margin-bottom: 130px;
+}
+.mb-6{
+    margin-bottom: 90px;
 }
