@@ -41,7 +41,7 @@
     animation: up ease-in-out 0.5s;
 }
 @keyframes up {
-    0% {translate: 0px 24px;}
+    0% {translate: 0px 10px;opacity: 30%;}
     100% {translate: 0px 0px;}
   }
 .navbar .dropdown:hover .dropdown-menu{
@@ -61,7 +61,7 @@
     width: 100%;min-height: 730px;
     background-size: 100% 100%;
 }
-.banner .horizontal{
+.horizontal{
     animation: mymove 2s infinite alternate linear;
 }
 @keyframes mymove {
@@ -113,4 +113,44 @@
 }
 .mb-6{
     margin-bottom: 90px;
+}
+/* Who We Are -------------------------------------------------------------------------------------------------- */
+.title{
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1b0238;
+    font-family: "Catamaran", sans-serif;
+    font-weight: bold;
+    line-height: 55px;
+}
+.para{
+    line-height: 1.8;
+    color: #6b6b84;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+.list  li{
+    width: 50%;
+    margin: 10px 0px;
+    color: #1b0238;
+    font-family: "Catamaran", sans-serif;
+    cursor: pointer;
+}
+.list  li span{ 
+    height: 30px;
+    width: 30px;
+    padding: 7px 12px;
+    color: #ffffff;
+    background-color: #ea512e;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 0.6s ease-in-out;
+}
+.list  li:hover span{
+    background-color: #ff9a27;
+}
+.list{
+    margin-bottom: 0px;
 }
