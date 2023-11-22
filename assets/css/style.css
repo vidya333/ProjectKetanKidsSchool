@@ -6,7 +6,6 @@
   border: none;
   font-family: "Roboto",sans-serif;
 }
-
 /* HEADER ------------------------------------------------------------------------------------------------------------ */
 .navbar .navbar-nav .nav-item a {
         color: #1b0238;
@@ -38,7 +37,7 @@
     box-shadow: 0px 5px 12px 0px rgb(184, 181, 181);
     line-height: 39px;
     width: 280px;   
-    animation: up ease-in-out 0.5s;
+    animation: up linear 0.3s;
 }
 @keyframes up {
     0% {translate: 0px 10px;opacity: 30%;}
@@ -58,7 +57,7 @@
 /* BANNER ------------------------------------------------------------------------------------------------------------ */
 .banner{
     background: url(../img/main-banner-bg.jpg);
-    width: 100%;min-height: 730px;
+    width: 100%;min-height: 700px;
     background-size: 100% 100%;
 }
 .horizontal{
@@ -91,9 +90,11 @@
     letter-spacing: 2px;
 }
 .banner .p3{
-   color: #624883;
-   margin-bottom: 15px !important;
-   line-height: 27px;
+    line-height: 1.8;
+    color: #6b6b84;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
 }
 .default-btn1{
     background-color: #ff9a27;
@@ -153,4 +154,17 @@
 }
 .list{
     margin-bottom: 0px;
+}
+.rotate{
+    animation: rotate 6s linear infinite;
+    border-top: 29px solid #ff9a27;
+    border-left: 22px solid #ff9a27;
+    outline-offset: -1px;
+}
+@keyframes rotate {
+    0%{box-shadow: -15px -15px 0px 15px #c73f0d;outline: 5px solid #ff9a27;}
+    25%{box-shadow: 15px -15px 0px 15px #c73f0d;outline: 20px solid #ff9a27;}
+    50%{box-shadow: 15px 15px 0px 15px #c73f0d;outline: 10px solid #ff9a27;}
+    75%{box-shadow: -15px 15px 0px 15px #c73f0d;outline: 15px solid #ff9a27;}
+    100%{box-shadow: -15px -15px 0px 15px #c73f0d;outline: 0px solid #ff9a27;}
 }
