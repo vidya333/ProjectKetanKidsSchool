@@ -168,3 +168,38 @@
     75%{box-shadow: -15px 15px 0px 15px #c73f0d;outline: 15px solid #ff9a27;}
     100%{box-shadow: -15px -15px 0px 15px #c73f0d;outline: 0px solid #ff9a27;}
 }
+/* Classes starts ------------------------------------------------------------------------------------------------- */
+.classes{
+    background-color: #fdf6ed;
+}
+.image{    
+    transition: all 0.2s linear;
+}
+.cardiv:hover .image{
+    transform: scale(1.15)rotate(2deg);
+}
+.texts{
+    line-height: 1.8;
+    color: #6b6b84;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+.cardcontent{
+    padding: 6px 30px;
+    padding-bottom: 36px;
+}
+.text-org{
+    color: #ea512e;
+}
+.bg-org{
+    background-color: #ea512e;
+}
+.mycard:hover .org{
+    color: #ea512e;
+    transition: all 0.6s ease;
+}
+.cardo:hover .price{
+    background-color: #ff9a27 !important;
+    transition: all 0.3s ease;
+}
