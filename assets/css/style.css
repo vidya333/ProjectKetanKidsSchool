@@ -203,3 +203,42 @@
     background-color: #ff9a27 !important;
     transition: all 0.3s ease;
 }
+/* core values------------------------------------------------------------------------------------------------------- */
+.roundc{
+    padding: 20px 20px;
+    outline: 1px solid;
+    outline-offset: 3px;
+    border: 0px;
+    transition: all linear 0.3s;
+    font-size: 20px;
+}
+.datas:hover .roundc{
+    background-color: #ea512e;
+    outline-color: #ea512e;
+    color: #fff;
+}
+.bg-1{
+    background-color: #d3f5fe;outline-color: #d3f5fe;
+}
+.bg-2{
+    background-color: #fce0ad;outline-color: #fce0ad;
+}
+.bg-3{
+    background-color: #fbc9d5;outline-color: #fbc9d5;
+}
+.text-m{
+    color: #1b0238;
+    font-family: "Catamaran", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+.p-3 {
+    padding: 0px !important;
+}
+.p{
+    line-height: 1.8;
+    color: #6b6b84;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
