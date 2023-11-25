@@ -242,3 +242,49 @@
     font-family: "Roboto", sans-serif;
     font-size: 16px;
 }
+/* Teacher starts---------------------------------------------------------------------------------------------------- */
+.teacher{
+    background: url(../img/teacher-bg.jpg);
+    width: 100%;min-height: 660px;
+    background-size: 100% 100%;
+}
+.teacher .media .icons a{transition: 0.3s ease;}
+.teacher .media .icons a:hover{
+    background-color: #ff9a27 !important;
+}
+.media{
+    transition: 0.3s ease;
+    position: absolute;
+    bottom:-24%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.teacherimg:hover .media{
+    position: absolute;
+    bottom: 15px;
+}
+.techimg{
+    animation: cir 16s ease infinite;
+}
+@keyframes cir {
+    0%{box-shadow: -5px -5px 0px 5px #c73f0d;}
+    50%{box-shadow: 5px 5px 0px 5px #c73f0d;}
+    100%{box-shadow: -5px -5px 0px 5px #c73f0d;}
+}
+
+.text-t{
+    color: #1b0238;
+    font-family: "Catamaran", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.text-o{
+    color: #c73f0d;
+    font-family: "Catamaran", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.teacher p{
+    margin-bottom: 0px;
+}
