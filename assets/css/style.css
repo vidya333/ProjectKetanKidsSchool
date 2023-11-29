@@ -196,7 +196,7 @@
     background-color: #ea512e;
 }
 .mycard:hover .org{
-    color: #ea512e;
+    color: #ea512e !important;
     transition: all 0.6s ease;
 }
 .cardo:hover .price{
