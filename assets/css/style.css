@@ -319,3 +319,9 @@
 .testimonial .row>*{
     padding-left: 0px;
 }
+.prev:hover{
+    background: #ff9a27 !important;
+}
+.next:hover{
+    background: #ff9a27 !important;
+}
