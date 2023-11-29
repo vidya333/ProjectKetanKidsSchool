@@ -351,6 +351,21 @@
     75%{transform: rotate(-3deg) scale(1);}
     100%{transform: rotate(3deg) scale(0.9);}
 }
+.mode{
+    position: fixed;
+    right: 90px;
+    z-index: 99;
+    top: 85%;
+    background: #ea512e;
+    width: 66px;
+    border-radius: 30px;
+    padding: 1px;
+}
+#mode{transition: 0.6s ease;}
+.mode:focus #mode{
+    transform: translateX(30px);
+}
+/* events starts ---------------------------------------------------------------------------------------------------- */
 .event{
     width: 100%;min-height: 700px;
     background-image: linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.3)),url(../img/event-bg.jpg);
