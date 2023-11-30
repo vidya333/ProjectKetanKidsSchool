@@ -354,7 +354,7 @@
     position: absolute;
     bottom: 15px;
 }
-.image {
+.teacher .image{
     position: relative;
     -webkit-transition: 0.5s;
     transition: 0.5s;
