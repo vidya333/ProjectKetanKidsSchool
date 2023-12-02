@@ -456,6 +456,15 @@
 .next:hover{
     background: #ff9a27 !important;
 }
+.slider-main{
+    transition: 0.6s;
+}
+.testimonial:hover .prev{
+    visibility: visible;
+}
+.testimonial:hover .next{
+    visibility: visible;
+}
 /* -------------------------------------------------------------------------------------------------------------------- */
 .buynow{
     right: 30px;
@@ -482,20 +491,6 @@
     75%{transform: rotate(-3deg) scale(0.85);}
     100%{transform: rotate(3deg) scale(0.99);}
 }
-/* .mode{
-    position: fixed;
-    right: 90px;
-    z-index: 99;
-    top: 85%;
-    background: #ea512e;
-    width: 66px;
-    border-radius: 30px;
-    padding: 1px;
-}
-#mode{transition: 0.6s ease;}
-.mode:focus #mode{
-  transform: translateX(30px);
-} */
 .switch {
     position: fixed;
     top:83%;right: 90px;
@@ -540,6 +535,9 @@
   .slider.round:before {
     border-radius: 50%;
   }
+  .dark-mode {
+    background-color: #3c2a58;
+  }
 /* events starts ---------------------------------------------------------------------------------------------------- */
 .event{
     width: 100%;min-height: 700px;
@@ -559,3 +557,10 @@
 .news .row>*{
     padding-left: 0px;
 }
+/* footer starts ----------------------------------------------------------------------------------------------------- */
+.footer{
+    background: linear-gradient(rgb(0,0,0,0.9),rgb(0,0,0,0.9)),url(../img/footer-bg.jpg);
+    background-size: 100% 100%;
+    width: 100%;min-height: 600px;
+}
+.line{font-size: 15px;}
