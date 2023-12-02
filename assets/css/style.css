@@ -561,6 +561,27 @@
 .footer{
     background: linear-gradient(rgb(0,0,0,0.9),rgb(0,0,0,0.9)),url(../img/footer-bg.jpg);
     background-size: 100% 100%;
-    width: 100%;min-height: 600px;
+    width: 100%;min-height: 400px;
 }
-.line{font-size: 15px;}
+.line{font-size: 15px;transition: all 0.3s;}
+.line:hover{color: #ea512e;}
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:6px;
+}
+.gimg{
+    transition: 0.6s all ease;
+}
+.photo:hover .gimg{
+    transform: scale(1.2);
+}
+footer{
+    width: 100%;
+    background: #091629;
+    min-height: 80px;
+}
+footer p{
+    cursor: pointer;
+    margin-bottom: 0px;
+}
