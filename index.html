@@ -775,8 +775,7 @@
   <p style="line-height: 80px;">Copyright @2023 Ketan. All Rights Reserved Design by <span class="text-org">Vidya Tandel</span></p>
 </footer>
 <!------------------------------------------------------------------------------------------------------------------>
-  <button class="buynow" type="button">
-  <img src="./assets/img/envato.png" width="19%">&nbsp; Buy Now</button>
+  <button class="buynow" type="button"><img src="./assets/img/envato.png" width="19%">&nbsp; Buy Now</button>
   <!-- <button class="mode text-start"><img src="./assets/img/sunny.png" id="mode" type="button"
     width="33px" style="border-radius: 50%;border:  white 6px solid;"></button> -->
 
@@ -785,7 +784,9 @@
     <span class="slider round" onclick="myFunction()"></span>
   </label>
 
-
+ <button class="goup" id="myBtn" onclick="topFunction()">
+  <i class="fa-solid fa-arrow-up fs-4 rounded-circle text-light iconup"></i>
+ </button>
 <!------------------------------------------------------------------------------------------------------------------>
 
 
@@ -819,7 +820,18 @@
     function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
-}
+    }
+
+    let myButton=document.getElementById("myBtn");
+    window.onscroll=function(){scrollFunction()};
+    function scrollFunction(){
+      if(document.documentElement.scrollTop>100){
+        myButton.style.display="block";}
+      else{myButton.style.display="none";}
+      }
+    function topFunction(){
+      document.documentElement.scrollTop=0;
+    }
 </script>
 
 </body>
