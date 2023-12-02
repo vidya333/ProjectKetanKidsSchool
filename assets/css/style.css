@@ -338,7 +338,7 @@
     background-size: 100% 100%;
 }
 .teacher .media .icons a{transition: 0.3s ease;}
-.teacher .media .icons a:hover{
+.icons a:hover{
     background-color: #ff9a27 !important;
 }
 .media{
@@ -398,12 +398,6 @@
         border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
     }
 }
-/* @keyframes cir {
-    0%{box-shadow: -5px -5px 0px 5px #c73f0d;}
-    50%{box-shadow: 5px 5px 0px 5px #c73f0d;}
-    100%{box-shadow: -5px -5px 0px 5px #c73f0d;}
-} */
-
 .text-t{
     color: #1b0238;
     font-family: "Catamaran", sans-serif;
@@ -563,8 +557,23 @@
     background-size: 100% 100%;
     width: 100%;min-height: 400px;
 }
-.line{font-size: 15px;transition: all 0.3s;}
-.line:hover{color: #ea512e;}
+.line{font-size: 15px;transition: all 0.3s;position: relative;}
+.line:hover{
+    color: #ea512e;
+    cursor: pointer;
+}
+.line:hover::before{
+    width: 100%;
+    transform: scaleX(1);}
+.line::before{
+    content: "";
+    position: absolute;
+    left:0;bottom: 0;
+    height: 1px;
+    background: #c73f0d;
+    transition: 0.3s ease;
+    transform: scaleX(0);
+}
 .gallery{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -575,6 +584,7 @@
 }
 .photo:hover .gimg{
     transform: scale(1.2);
+    
 }
 footer{
     width: 100%;
@@ -584,4 +594,20 @@ footer{
 footer p{
     cursor: pointer;
     margin-bottom: 0px;
+}
+.hover{position: relative;}
+.invisible1{
+    background-color: #ea512e;
+    position: absolute;
+    top:0;bottom: 0;right: 0;left: 0;
+    transition: 0.6s ease all;
+    opacity: 0;padding:10% 30%;
+    color: #ea512e;
+}
+.hover:hover .invisible1{
+    opacity: 0.5;}
+.up{
+    transition: 0.3s ease;}
+.up:hover{
+    transform: translateY(-9px);
 }
