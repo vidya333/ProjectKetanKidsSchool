@@ -542,7 +542,7 @@
     background: transparent;
   }
   .iconup{
-    background: #091629;
+    background: #200929;
     padding: 10px 13px;
     transition: 0.6s ease;
   }
@@ -582,15 +582,16 @@
 }
 .line:hover::before{
     width: 100%;
-    transform: scaleX(1);}
+}
 .line::before{
     content: "";
     position: absolute;
-    left:0;bottom: 0;
+    left:0;
+    bottom: 0;
     height: 1px;
-    background: #c73f0d;
+    width: 0px;
+    background: #ea512e;
     transition: 0.3s ease;
-    transform: scaleX(0);
 }
 .gallery{
     display: grid;
