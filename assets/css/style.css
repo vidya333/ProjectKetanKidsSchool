@@ -33,7 +33,7 @@
     border: 0px;padding: 12px 33px;
 }
 .default-btn:hover{
-    box-shadow: #ff9a27 0px 54px 0px 0px inset;
+    box-shadow: #ff9a27 0px 60px 0px 0px inset;
     background-color: #ea512e;
 }
 .dropdown-menu{
@@ -574,8 +574,12 @@
     background: linear-gradient(rgb(0,0,0,0.9),rgb(0,0,0,0.9)),url(../img/footer-bg.jpg);
     background-size: 100% 100%;
     width: 100%;min-height: 400px;
+    background-attachment: fixed;
 }
-.line{font-size: 15px;transition: all 0.3s;position: relative;}
+.line{
+    font-size: 15px;
+    transition: all 0.3s;
+    position: relative;}
 .line:hover{
     color: #ea512e;
     cursor: pointer;
@@ -629,4 +633,110 @@ footer p{
     transition: 0.3s ease;}
 .up:hover{
     transform: translateY(-9px);
+}
+/* ==================================================================================================================
+=====================================================================================================================
+===================================================================================================================== */
+.about1{
+    background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.5)),url(../img/page-banner-1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;min-height: 500px;
+    margin-top: 77px;
+}
+.funfact{
+    width: 100%;min-height: 450px;
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.5)),url(../../assets/img/fun-facts-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+.teachers{
+    width: 100%;
+}
+.yellow{
+    transition: 0.3s ease;
+}
+.yellow:hover{
+    background: #f5890d !important;
+    color: #fff !important;
+}
+.teacherpic .media{
+    position: absolute;
+    top:190px;transition: 0.3s ease;
+    opacity: 0;
+}
+.teacherpic:hover .media{
+    position: absolute;
+    top:160px;opacity: 1;
+}
+.teacherpic::before{
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    height: 100%;
+    background-color: #000000;
+    left: 0;
+    top: 0;
+    transition: 0.6s;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 15px;
+}
+.teacherpic:hover::before{
+    visibility: visible !important;
+    opacity: .70;
+}
+.quotes{
+    background: url(../img/quote-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;min-height: 700px;
+    margin-top: 77px;
+}
+.feedback-image::before {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 30%;
+        background-color: #ea512e;
+        left:20px;
+        right: 0;
+        top: 0;
+        z-index: -1;
+        border-radius: 50%;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        -webkit-animation: border-transform-default 30s linear infinite alternate forwards;
+        animation: border-transform-default 30s linear infinite alternate forwards;
+}
+@keyframes border-transform-default {
+    0%, 100% {
+        border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+    }
+    14% {
+        border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+    }
+    28% {
+        border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+    }
+    42% {
+        border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+    }
+    56% {
+        border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+    }
+    70% {
+        border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+    }
+    84% {
+        border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+    }
+}
+.nextbtn:hover{
+    background:#f5890d !important;
 }
