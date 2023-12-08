@@ -714,6 +714,9 @@ footer p{
         -webkit-animation: border-transform-default 30s linear infinite alternate forwards;
         animation: border-transform-default 30s linear infinite alternate forwards;
 }
+@media screen and (max-width:1000px) {
+    .feedback-image::before {display: none;}
+}
 @keyframes border-transform-default {
     0%, 100% {
         border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
@@ -739,4 +742,27 @@ footer p{
 }
 .nextbtn:hover{
     background:#f5890d !important;
+}
+.pricing table tr td{
+    padding: 30px;
+    color: #6b6b84;
+}
+.pricing table tr th{
+    padding: 30px;
+}
+.update{
+    width:100%;min-height: 290px;
+    display: flex;align-items: center;
+    z-index: -1;
+}
+.shape1,.shape2{z-index: -1;width: 20%;}
+.text-n{
+    color: #1b0238;
+    font-family: "Catamaran", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: left !important;
+}
+.partner{
+    width:100%;
 }
