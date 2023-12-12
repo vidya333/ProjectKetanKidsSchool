@@ -766,3 +766,40 @@ footer p{
 .partner{
     width:100%;
 }
+
+/* --------------------RESPONSIVE----------------------------------------------------------------------------------- */
+@media screen and (max-width:767px){
+    .classes .row>* {
+        padding-left: 0px;
+    }
+    .event .row>* {
+        padding-left: 0px;
+    }
+    .footer .row>* {
+        padding-left: 0px;
+    }
+} 
+@media screen and (max-width:400px) 
+{
+    .banner .p2{
+        font-size: 50px;
+        line-height: 60px !important;
+    }
+    .list  li{
+        width: 100%;    
+    }
+    .title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .cardcontent{
+        padding: 6px 10px;
+        padding-bottom: 36px;
+    }
+}
+@media screen and (max-width:315px){
+    .banner .p2{
+        font-size: 40px;
+        line-height: 50px !important;
+    }
+}
