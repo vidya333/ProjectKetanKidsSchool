@@ -1,0 +1,114 @@
+.event-banner {
+    width: 100%;
+    padding: 250px 0px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/page-banner-4.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  .event-content h3 a {
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 5px;
+    background-color: #fcded3;
+    color: #ea512e;
+}
+.newsletter-form .input-newsletter {
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    height: 60px;
+    padding-left: 25px;
+    border-radius: 5px;
+    outline: 0;
+    color: #1b0238;
+}
+.newsletter-form button {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    background-color: #ea512e;
+    color: #ffffff;
+    border: none;
+    height: 52px;
+    padding: 0 30px;
+    border-radius: 5px;
+    transition: 0.5s;
+    line-height: 50px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+.newsletter-form button:hover {
+    background-color: #1b0238;
+    color: #ffffff;
+}
+.newsletter-shape .shape-1 {
+    transform: translateY(-60%);
+    z-index: -1;
+}
+.newsletter-shape .shape-2 {
+    transform: translateY(-60%);
+    z-index: -1;
+}
+
+.teacher-details-information {
+    background-color: #ffffff;
+    box-shadow: 0px -10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border-top: 3px solid #ea512e;
+    padding: 40px 30px;
+  }
+  .teacher-details-information h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 15px;
+    position: relative;
+    color: #1b0238;
+    font-family: "Catamaran", sans-serif;
+    font-weight: bold;
+  }
+  .teacher-details-information h3::before {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 150px;
+    height: 1px;
+    background-color: #ea512e;
+  }
+  .teacher-details-information ul li {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+  }
+  .teacher-details-information ul li a {
+    color: #6b6b84;
+  }
+  .teacher-details-information ul li a:hover {
+    color: #ea512e ;
+  }
+  .event-details #map iframe {
+    border: none;
+    width: 100%;
+    height: 450px;
+    margin-bottom: -8px;
+}
+.event-section .container{
+  --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+@media screen and (min-width:1200px){
+  .event-section .container{
+    max-width: 98%;
+}
+}

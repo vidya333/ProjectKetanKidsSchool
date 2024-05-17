@@ -1,0 +1,97 @@
+.class-banner {
+  width: 100%;
+  padding: 250px 0px;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/page-banner-2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  }
+.teacher-banner-details {
+  width: 100%;
+  padding: 250px 0px;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/page-banner-2.png);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.teacher-details-information {
+  background-color: #ffffff;
+  box-shadow: 0px -10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border-top: 3px solid #ea512e;
+  padding: 40px 30px;
+}
+.teacher-details-information h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 15px;
+  position: relative;
+  color: #1b0238;
+  font-family: "Catamaran", sans-serif;
+  font-weight: bold;
+}
+.teacher-details-information h3::before {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 150px;
+  height: 1px;
+  background-color: #ea512e;
+}
+.teacher-details-information ul li {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+}
+.newsletter-form .input-newsletter {
+  display: block;
+  width: 100%;
+  background-color: #ffffff;
+  border: none;
+  height: 55px;
+  padding-left: 15px;
+  border-radius: 0;
+  outline: 0;
+  color: #1b0238;
+}
+.newsletter-form button {
+  background: #ea512e;
+  color: #ffffff;
+  border: none;
+  height: 55px;
+  padding: 0 60px;
+  transition: 0.5s;
+  line-height: 55px;
+  font-weight: 500;
+  border-radius: 0;
+  transition: 0.5s;
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.newsletter-form button:hover {
+  background: #f5890d;
+}
+.tabs li {
+  display: inline-block;
+  line-height: initial;
+  margin-right: 5px;
+}
+.tabs li.current a:hover {
+ background-color: #ea512e;
+ color: #ffffff;
+}
+.tabs li a {
+  display: inline-block;
+  position: relative;
+  color: #1b0238;
+  text-decoration: none;
+  background-color: #fcefea;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px 26px;
+  width: 100%;
+}

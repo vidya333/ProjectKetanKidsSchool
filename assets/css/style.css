@@ -164,19 +164,6 @@
 .list{
     margin-bottom: 0px;
 }
-/* .rotate{
-    animation: rotate 6s linear infinite;
-    border-top: 29px solid #ff9a27;
-    border-left: 22px solid #ff9a27;
-    outline-offset: -1px;
-}
-@keyframes rotate {
-    0%{box-shadow: -15px -15px 0px 15px #c73f0d;outline: 5px solid #ff9a27;}
-    25%{box-shadow: 15px -15px 0px 15px #c73f0d;outline: 20px solid #ff9a27;}
-    50%{box-shadow: 15px 15px 0px 15px #c73f0d;outline: 10px solid #ff9a27;}
-    75%{box-shadow: -15px 15px 0px 15px #c73f0d;outline: 15px solid #ff9a27;}
-    100%{box-shadow: -15px -15px 0px 15px #c73f0d;outline: 0px solid #ff9a27;}
-} */
 .who-we-are-image {
     text-align: center;
     position: relative;
@@ -317,6 +304,15 @@
 }
 .bg-3{
     background-color: #fbc9d5;outline-color: #fbc9d5;
+}
+.bg-4{
+    background-color: #f5890d;outline-color: #f5890d;
+}
+.bg-5{
+    background-color: #bc7adb;outline-color: #bc7adb;
+}
+.bg-6{
+    background-color: #f894f3;outline-color: #f894f3;
 }
 .text-m{
     color: #1b0238;
@@ -638,7 +634,6 @@ footer p{
     transform: translateY(-9px);
 }
 /* ==================================================================================================================
-=====================================================================================================================
 ===================================================================================================================== */
 .about1{
     background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.5)),url(../img/page-banner-1.jpg);
@@ -841,4 +836,29 @@ footer p{
     .feedimg{
         width: 90%;
     }
+}
+/* ===============================================HOME2======================================================= */
+.single-activities .activities-content {
+    padding-left: 90px;
+}
+.activities-area{
+    background-color: #faf6f2;
+}
+.activities-area a{
+    text-decoration: none;
+    color: #1f1d1d;
+    font-weight: 500;
+}
+.activities-content:hover .takeSpace{
+    letter-spacing: 3px;
+    transition: 0.5s ease;
+    color: #ea512e;
+}
+.single-activities:hover .roundc{
+    background-color: #ea512e;
+    outline-color: #ea512e;
+    color: #fff;
+}
+.activities-content:hover .text-m{
+    color: #ea512e;
 }

@@ -1,0 +1,105 @@
+
+.teacher-banner {
+  width: 100%;
+  padding: 250px 0px;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/page-banner-2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.teacher-details-information {
+  background-color: #ffffff;
+  box-shadow: 0px -10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border-top: 3px solid #ea512e;
+  padding: 40px 30px;
+}
+.teacher-details-information h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 15px;
+  position: relative;
+  color: #1b0238;
+  font-family: "Catamaran", sans-serif;
+  font-weight: bold;
+}
+.teacher-details-information h3::before {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 150px;
+  height: 1px;
+  background-color: #ea512e;
+}
+.teacher-details-information ul li {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+}
+.teacher-details-information ul li a i {
+  position: relative;
+  top: 1.5px;
+}
+.teacher-details-information ul li a:hover {
+  color: #ea512e ;
+}
+.skill-bar .progress-number-wrapper {
+  width: 100%;
+  z-index: 10;
+  font-size: 11px;
+  line-height: 24px;
+  height: 24px;
+  letter-spacing: 0px;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: none;
+  color: #ffffff;
+}
+.skill-bar .progress-number-mark {
+  position: absolute;
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-size: 16px;
+  color: #1b0238;
+  font-weight: 500;
+}
+.skill-bar .progress-number-mark {
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-50%);
+  font-size: 16px;
+  color: #1b0238;
+  font-weight: 500;
+}
+.skill-bar .down-arrow {
+  display: none;
+}
+.skill-bar .progress-content {
+  height: 6px;
+  background-color: #fdbb22;
+  border-radius: 4px;
+  width: 0%;
+}
+
+.teacher .media .icons a{transition: 0.3s ease;}
+.icons a:hover{
+    background-color: #ff9a27 !important;
+}
+.media{
+    transition: 0.3s ease;
+    position: absolute;
+    bottom:-24%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+.teacherimg:hover .media{
+    position: absolute;
+    bottom: 15px;
+}

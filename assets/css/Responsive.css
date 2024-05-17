@@ -1,0 +1,173 @@
+/*================================================ Responsive CSS Start ================================================*/
+@media  screen and (min-width:1200px)  and (max-width:1400px)  {
+    .title:hover .title-point{
+      display: block;
+    }
+  }
+  @media  screen and (max-width:1199px) {
+    .others-option-for-responsive {
+      display:block !important;
+    }
+    .navbar .others-options {
+      display: none !important;
+    }
+    .others-option-for-responsive .row {
+      right: 18%;
+      top: 23px;
+      position: absolute;
+      position: fixed;
+      z-index: 9991;
+    }
+    .others-option-for-responsive .row .collapse{
+      top: 55px;
+      border: none;
+      margin-left: -60px;
+    }
+    .navbar .navbar-nav .nav-item {
+      margin-top:-25px;
+      border: 5px;
+    }
+    .navbar .navbar-nav .nav-item {
+      margin-top:-25px;
+      border: 5px;
+    }
+    .navbar .bar {
+      overflow-y: scroll;
+      height: 280px;
+      background-color: #ffffff;
+      box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
+      margin-top: 15px;
+    }
+    .navbar .navbar-nav li a {
+      float: left;
+      width: 90%;
+      margin: 0;
+      text-align: left;
+      color: #677294;
+      border-top: 2px solid #DBEEFD;
+    }
+    .title-point {
+      width: 100%;   
+      padding-left: 40px;
+    }
+    .banner .main-banner-image {
+      width: 90%;   
+    }
+    .popular h3 {
+      font-size: 24px;
+    }
+    .testimonial .prev,
+    .testimonial .next {
+     top: 93%;
+    }
+  }
+  
+  @media only screen  and (max-width: 991px){
+    .others-option-for-responsive .row {
+      right: 23%;
+    }
+    .main-banner-content {
+      text-align: center;
+      margin: auto;
+      margin-top: 65px;
+      max-width: 630px;
+    }
+    .main-banner-content h1,
+    .event-date h4  {
+      font-size: 45px;
+    }
+    .btn,.btn1 {
+      padding: 10px 25px;
+      font-size: 15px; 
+    }
+    .main-banner-image {
+      margin-top: 0px;
+      text-align: center;
+    }
+    .banner{
+      height: 100%;
+      padding-top: 70px;
+      padding-bottom: 70px;
+      background-image: unset;
+      background-color: #e7ddf4;
+    }
+    .value-item .value-content h3 {
+      font-size: 25px;
+    }
+    .value-item .value-inner-content h4,
+    .teacher .content h3 {
+      font-size: 22px;
+    }
+    .teacher .size,
+    .testimonial .section-title h2,
+    .event h3,
+    .news h3 {
+      font-size: 35px;
+    }
+    .news li {
+      font-size: 14px;
+      margin-right: 10px;
+    }
+  }
+    
+  @media only screen and (max-width: 767px){
+    .others-option-for-responsive .row {
+      right: 27%;
+    }
+    p{
+        font-size: 14px; 
+    }
+    .span-1,
+    .news h5 {
+      font-size: 19px;
+    }
+    .banner {
+      height: 100%;
+      padding-top: 50px;
+      padding-bottom: 0px;
+      background-image: unset;
+      background-color: #e7ddf4;
+    }
+    .main-banner-content h1 {
+      font-size: 30px;
+    }
+    .main-banner-image {
+      text-align: center;
+      padding-right: 20px;
+    }
+    .btn,.btn1 {
+      padding: 10px 25px;
+      font-size: 12px; 
+    }
+    .who .content .size{
+      font-size: 25px; 
+    }
+    .who-list li {
+      flex: unset;
+      max-width: unset;
+      margin-right: 20px;
+    }
+    .section-title h2,
+    .teacher .size,
+    .news h3 {
+      font-size: 28px;
+    }
+    .testimonial .section-title h2 {
+      font-size: 28px;
+    }
+    .event img,
+    .event h3,
+    .event .event-list li{
+      text-align: center;
+    }
+    .news li,
+    .news li span{
+      font-size: 13px;
+      margin-right: 2px;
+    }
+    .footer, .news, .testimonial, .event, .teacher, .core-value, .popular {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+    /* ================================================ Responsive CSS End ================================================*/
