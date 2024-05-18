@@ -1,0 +1,63 @@
+.timetable .table {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  .timetable .table thead th {
+    border: 1px solid #f0f0f0;
+    color: #1b0238;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px 25px;
+  }
+  
+  .timetable .table tbody tr th {
+    border: 1px solid #f0f0f0;
+    font-weight: 600;
+    color: #ea512e;
+    overflow-x: auto;
+    font-family: "Roboto", sans-serif;
+    padding: 30px 25px;
+    font-size: 18px;
+  }
+  
+  .timetable .table tbody tr th span {
+    display: block;
+    font-size: 14px;
+    margin-top: 12px;
+    font-weight: 400;
+    color: #6b6b84;
+  }
+  
+  .timetable .table tbody tr td {
+    border: 1px solid #f0f0f0;
+    font-weight: 600;
+    color: #ea512e;
+    overflow-x: auto;
+    font-family: "Roboto", sans-serif;
+    padding: 30px 25px;
+    font-size: 18px;
+  }
+  
+  .timetable .table tbody tr td span {
+    display: block;
+    font-size: 14px;
+    margin-top: 12px;
+    font-weight: 400;
+    color: #6b6b84;
+  }
+  
+  .timetable .table-responsive {
+    overflow-x: unset;
+  }
+  
+  .timetable .table-title {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .timetable .table-title p {
+    margin-bottom: 0;
+  }
+  

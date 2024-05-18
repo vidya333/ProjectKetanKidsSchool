@@ -1,0 +1,9 @@
+.faq-image {
+    background-image: url(../../assets/img/faq.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+  }
+  
