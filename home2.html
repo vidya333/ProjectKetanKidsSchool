@@ -691,6 +691,31 @@
         }
     });
 
+    var swiper2 = new Swiper(".mySwiper2", {
+        slidesPerView: 5,
+        spaceBetween: 30,
+        freeMode: true,
+        loop: true,
+        autoplay: {
+          delay: 2100,
+        },
+        grabCursor: true,
+        breakpoints:{
+            0:{
+                slidesPerView: 1,  
+            },
+            520:{
+                slidesPerView: 2,  
+            },
+            720:{
+                slidesPerView: 3,  
+            },
+            950:{
+                slidesPerView: 5,  
+            },
+        }
+      });
+
     function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
