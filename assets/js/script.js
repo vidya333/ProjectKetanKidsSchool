@@ -1,11 +1,11 @@
-var sliderMain = document.querySelector('.slider-main');
-let item = sliderMain.getElementsByClassName('item');
-function next(){
-    sliderMain.append(item[0]);
+// Registration Form Password Show / Hide
+var checker = document.getElementById("checkme");
+var pass = document.getElementById("pass");
+function typeChecker() {
+    if (checker.checked){
+        pass.setAttribute("type","text");
+    }
+    else{
+        pass.setAttribute("type","password");
+    }
 }
-function prev(){
-    sliderMain.prepend(item[item.length-1]);
-}
-setInterval(
-    next,1500
-)
